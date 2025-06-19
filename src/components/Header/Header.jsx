@@ -6,6 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -41,7 +42,7 @@ const Header = () => {
                 <p className="mb-2 md:mb-5">
                   Nature is the heart of our planet, offering beauty, balance, and life. Trees give us oxygen and shade, while rivers and oceans keep the Earth cool and flowing. Birds sing in the morning, and flowers bloom in bright colors, making our surroundings peaceful and joyful. Mountains stand tall and proud, teaching us strength and patience. Every part of nature, from tiny insects to giant forests, has a role in the Earth’s harmony.
                 </p>
-                <button className="btn btn-accent text-xl font-bold my-5 text-black">Explore Now</button>
+                <Link to="/explore"> <button className="btn btn-accent text-xl font-bold my-5 text-black">Explore Now</button></Link>
               </div>
             </div>
           </div>
@@ -63,7 +64,7 @@ const Header = () => {
                 <p className="mb-2 md:mb-5">
                   Nature is the heart of our planet, offering beauty, balance, and life. Trees give us oxygen and shade, while rivers and oceans keep the Earth cool and flowing. Birds sing in the morning, and flowers bloom in bright colors, making our surroundings peaceful and joyful. Mountains stand tall and proud, teaching us strength and patience. Every part of nature, from tiny insects to giant forests, has a role in the Earth’s harmony.
                 </p>
-                <button className="btn btn-accent text-xl font-bold my-5 text-black">Explore Now</button>
+                <Link to="/explore"> <button className="btn btn-accent text-xl font-bold my-5 text-black">Explore Now</button></Link>
               </div>
             </div>
           </div>
@@ -84,7 +85,7 @@ const Header = () => {
               <p className="mb-2 md:mb-5">
                 Nature is the heart of our planet, offering beauty, balance, and life. Trees give us oxygen and shade, while rivers and oceans keep the Earth cool and flowing. Birds sing in the morning, and flowers bloom in bright colors, making our surroundings peaceful and joyful. Mountains stand tall and proud, teaching us strength and patience. Every part of nature, from tiny insects to giant forests, has a role in the Earth’s harmony.
               </p>
-              <button className="btn btn-accent text-xl font-bold my-5 text-black">Explore Now</button>
+              <Link to="/explore"> <button className="btn btn-accent text-xl font-bold my-5 text-black">Explore Now</button></Link>
             </div>
           </div>
         </div>
@@ -106,7 +107,7 @@ const Header = () => {
                 <p className="mb-5">
                   Nature is the heart of our planet, offering beauty, balance, and life. Trees give us oxygen and shade, while rivers and oceans keep the Earth cool and flowing. Birds sing in the morning, and flowers bloom in bright colors, making our surroundings peaceful and joyful. Mountains stand tall and proud, teaching us strength and patience. Every part of nature, from tiny insects to giant forests, has a role in the Earth’s harmony.
                 </p>
-                <button className="btn btn-accent text-xl font-bold my-5 text-black">Explore Now</button>
+                <Link to="/explore"> <button className="btn btn-accent text-xl font-bold my-5 text-black">Explore Now</button></Link>
               </div>
             </div>
           </div>

@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "Paris",
+    "country": "France",
+    "continent": "Europe",
+    "description": "The City of Light, famous for the Eiffel Tower, art museums, and romantic ambiance.",
+    "image": "https://i.ibb.co/MkgfJH2Q/eiffel-tower-paris-france-champ-de-mars-view.webp"
+  },
+  {
+    "id": 2,
+    "name": "Kyoto",
+    "country": "Japan",
+    "continent": "Asia",
+    "description": "Known for its beautiful temples, traditional tea houses, and cherry blossoms.",
+    "image": "https://i.ibb.co/NdQRd51S/Kyoto-view.jpg"
+  },
+  {
+    "id": 3,
+    "name": "New York City",
+    "country": "USA",
+    "continent": "North America",
+    "description": "The city that never sleeps, with skyscrapers, Broadway, and Central Park.",
+    "image": "https://i.ibb.co/svSv2ZVb/360-F-209705645-b78-HGJI1i1mxq-Lw-MYA7z1m3-Vv-Cxgx-JFO.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Cape Town",
+    "country": "South Africa",
+    "continent": "Africa",
+    "description": "A scenic city with beaches, Table Mountain, and rich cultural history.",
+    "image": "https://i.ibb.co/C5xr9djj/360-F-169591894-wwj-Gu1cmg-LOzd-LLIEOZXZDBp5fv-RAwkw.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Santorini",
+    "country": "Greece",
+    "continent": "Europe",
+    "description": "Famous for its whitewashed buildings, blue domes, and stunning sunsets.",
+    "image": "https://i.ibb.co/N6KPm55P/541446.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Queenstown",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "description": "Adventure capital offering bungee jumping, skiing, and breathtaking landscapes.",
+    "image": "https://i.ibb.co/svXKCKPm/A-Must-Do-Travel-Guide-to-Queenstown-New-Zealand.webp"
+  },
+  {
+    "id": 7,
+    "name": "Rome",
+    "country": "Italy",
+    "continent": "Europe",
+    "description": "Home of ancient ruins like the Colosseum and rich Roman history.",
+    "image": "https://i.ibb.co/nqkdrqxH/1-gfzx-EKbwz-FDI8-L-h2-FQSrw.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Petra",
+    "country": "Jordan",
+    "continent": "Asia",
+    "description": "An archaeological wonder carved into red sandstone cliffs.",
+    "image": "https://i.ibb.co/BJwyRS6/image-processing20181012-4-1m9pi3s.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Rio de Janeiro",
+    "country": "Brazil",
+    "continent": "South America",
+    "description": "Famous for Christ the Redeemer, beaches, and vibrant festivals.",
+    "image": "https://i.ibb.co/CpC65m8W/image.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Banff",
+    "country": "Canada",
+    "continent": "North America",
+    "description": "A national park known for turquoise lakes and the Rocky Mountains.",
+    "image": "https://i.ibb.co/vxXDzsxt/yba-istock-1368035096.webp"
+  },
+  {
+    "id": 11,
+    "name": "Marrakech",
+    "country": "Morocco",
+    "continent": "Africa",
+    "description": "A historic city with colorful souks, palaces, and desert adventures.",
+    "image": "https://i.ibb.co/TxH91959/koutoubia-mosque-minaret-located-at-medina-quarter-of-marrakesh-morocco-balate-dorin.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Bali",
+    "country": "Indonesia",
+    "continent": "Asia",
+    "description": "A tropical paradise known for beaches, rice terraces, and spirituality.",
+    "image": "https://i.ibb.co/27SyR38S/bali-tg.png"
+  },
+  {
+    "id": 13,
+    "name": "Barcelona",
+    "country": "Spain",
+    "continent": "Europe",
+    "description": "A vibrant city known for Gaudí's architecture, beaches, and lively culture.",
+    "image": "https://i.ibb.co/8Dcp4vKS/sagrada-familia-small.webp"
+  },
+  {
+    "id": 14,
+    "name": "Dubai",
+    "country": "United Arab Emirates",
+    "continent": "Asia",
+    "description": "Modern luxury city famous for skyscrapers, shopping malls, and desert adventures.",
+    "image": "https://i.ibb.co/Tq4mjQVr/59.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Istanbul",
+    "country": "Turkey",
+    "continent": "Asia/Europe",
+    "description": "A historic city bridging two continents with mosques, palaces, and markets.",
+    "image": "https://i.ibb.co/hRGJgFbj/5e4cb3d2e82a32e97f2ef1c8f817e588.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Machu Picchu",
+    "country": "Peru",
+    "continent": "South America",
+    "description": "Ancient Incan city set high in the Andes, famous for its ruins and scenery.",
+    "image": "https://i.ibb.co/V0nWzrRf/Diseno-sin-titulo-2-1.webp"
+  },
+  {
+    "id": 17,
+    "name": "Prague",
+    "country": "Czech Republic",
+    "continent": "Europe",
+    "description": "Fairytale city with castles, bridges, and beautiful old town charm.",
+    "image": "https://i.ibb.co/d030FNWp/1123pom-3-1.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Phuket",
+    "country": "Thailand",
+    "continent": "Asia",
+    "description": "Tropical island with stunning beaches, nightlife, and Thai culture.",
+    "image": "https://i.ibb.co/848g1Gsb/phuket-thailand-karst-formation-phuket0327-92bd3ce9266148dba74cba5e36c711e2.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Amalfi Coast",
+    "country": "Italy",
+    "continent": "Europe",
+    "description": "A breathtaking coastline with cliffs, colorful villages, and Mediterranean views.",
+    "image": "https://i.ibb.co/cXwj87sw/download.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Great Barrier Reef",
+    "country": "Australia",
+    "continent": "Oceania",
+    "description": "World's largest coral reef system, ideal for diving and marine life exploration.",
+    "image": "https://i.ibb.co/7687h9N/a2y54yhutwk3adk6zkzd.webp"
+  },
+  {
+    "id": 21,
+    "name": "Reykjavik",
+    "country": "Iceland",
+    "continent": "Europe",
+    "description": "Iceland's capital known for northern lights, geysers, and volcano tours.",
+    "image": "https://i.ibb.co/Q3MNtn2c/Intro-Reykjavik20-Cityscape-Adobe-Stock-208894627.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Seoul",
+    "country": "South Korea",
+    "continent": "Asia",
+    "description": "A high-tech city with rich history, K-culture, and dynamic food scene.",
+    "image": "https://i.ibb.co/FLWPXC9s/Namsan-Tower-during-autumn-in-Seoul-South-Korea.jpg"
+  }
+]

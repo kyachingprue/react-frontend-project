@@ -13,6 +13,8 @@ import Users from './components/Users/Users';
 import Post from './components/Post/Post';
 import UserDetails from './components/UserDetails/UserDetails';
 import HomeLayout from './components/HomeLayout/HomeLayout';
+import Explore from './components/Explore/Explore';
+import ExploreDetails from './components/ExploreDetails/ExploreDetails';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,20 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomeLayout></HomeLayout>
+      },
+      {
+        path: '/explore',
+        element: <Explore></Explore>
+      },
+      {
+        path: '/explore/:userId',
+        element: <ExploreDetails></ExploreDetails>,
+        loader: async ({ params }) => {
+          const res = await fetch('/jsonData.json');
+          const data = await res.json();
+          const matched = data.find(item => item.id.toString() === params.userId);
+          return matched;
+        }
       },
       {
         path: '/contact',

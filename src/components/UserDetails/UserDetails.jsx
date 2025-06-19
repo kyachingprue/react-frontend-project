@@ -6,9 +6,9 @@ const UserDetails = () => {
   const users = useLoaderData();
   // const { id, name, email, username, phone, website, company, address } = users;
   return (
-    <div className='text-center flex items-center gap-4 m-10 p-10 border border-black rounded-xl shadow-2xl shadow-blue-600'>
-      <div className='flex-1/2'>
-        <img src={natureImg} alt="" />
+    <div className='text-center md:flex items-center gap-4 m-10 mt-12 md:mt-24 p-10  rounded-xl shadow-2xl shadow-blue-600'>
+      <div className='flex-1/2 mb-4'>
+        <img className='rounded-xl' src={natureImg} alt="" />
       </div>
       <div className='flex-1/2'>
         <h2>{users.name} ({users.username})</h2>
