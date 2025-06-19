@@ -12,12 +12,17 @@ import Posts from './components/Posts/Posts';
 import Users from './components/Users/Users';
 import Post from './components/Post/Post';
 import UserDetails from './components/UserDetails/UserDetails';
+import HomeLayout from './components/HomeLayout/HomeLayout';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
     children: [
+      {
+        path: "/",
+        element: <HomeLayout></HomeLayout>
+      },
       {
         path: '/contact',
         element: <Contact></Contact>
