@@ -1,4 +1,5 @@
 li a.active {
-  background-color: white;
-  color: black;
+  background-color: rgb(44, 144, 151);
+  color: white;
+  text-decoration: underline;
 }

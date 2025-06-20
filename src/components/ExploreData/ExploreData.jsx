@@ -6,7 +6,7 @@ const ExploreData = ({ explore }) => {
   const { continent, country, description, name, image, id } = explore;
   return (
     <div>
-      <div className="card bg-base-100 w-96 shadow-2xl my-3">
+      <div className="card bg-base-100 md:w-96 mx-4 shadow-2xl my-3">
         <figure>
           <img className='w-full h-60 p-2 rounded-xl'
             src={image}

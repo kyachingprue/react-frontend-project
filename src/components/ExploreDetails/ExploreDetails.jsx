@@ -6,8 +6,8 @@ const ExploreDetails = () => {
   console.log(exploreData);
   const { continent, country, description, name, image } = exploreData;
   return (
-    <div className='mt-10 md:mt-24 mx-2 md:mx-20 mb-7 md:mb-16 '>
-      <h2 className='text-center text-6xl font-bold'> {exploreData.name} </h2>
+    <div className='mt-20 md:mt-24 mx-2 md:mx-20 mb-7 md:mb-16 '>
+      <h2 className='text-center text-3xl md:text-6xl font-bold'> {exploreData.name} </h2>
       <div className="divider">OR</div>
       <div className="md:flex items-center my-10">
         <div className="flex-1/2">
