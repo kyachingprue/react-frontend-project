@@ -19,7 +19,7 @@ const ExploreData = ({ explore }) => {
           <p className='text-xl font-semibold'>{continent}</p>
           <div className="card-actions justify-center">
             <Link to={`/explore/${id}`}>
-              <button className="btn btn-accent md:text-xl my-4 font-bold text-black">View Details</button>
+              <button className="btn btn-accent md:text-xl my-4 font-bold text-white">View Details</button>
             </Link>
           </div>
         </div>
