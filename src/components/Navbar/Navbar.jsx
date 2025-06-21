@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import '../Navbar/Navbar.css'
 
 const Navbar = () => {
-  const links = <div className='flex items-center gap-3 text-gray-300 justify-center '>
+  const links = <div className='flex-col md:flex-row md:flex items-center gap-3 text-gray-300 justify-center '>
     <li><NavLink to="/">Home</NavLink></li>
     <li><NavLink to="/explore">Explore</NavLink></li>
     <li><NavLink to="/about">About</NavLink></li>
@@ -21,7 +21,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-[400px] p-2 shadow flex-wrap">
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-24 p-2 shadow flex-wrap">
               {links}
             </ul>
           </div>
